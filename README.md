@@ -1,3 +1,3 @@
-# Front-End Seed
+# Repository Seed
 
-Common setup, configuration and templates for working with front-end web apps or sites.
+Common setup, configuration and templates.
