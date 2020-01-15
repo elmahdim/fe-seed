@@ -1,7 +1,3 @@
 # Snippets
 
-Common setup, configuration and templates.
-
-### Templates
-
-* [README.md Sample](/README.Sample.md)
+Snippets for common setup, configurations and templates.
