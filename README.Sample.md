@@ -2,6 +2,8 @@
 
 A few sentences describing the project goes here...
 
+> this project is bootstrapped with [CRA](https://github.com/facebookincubator/create-react-app)
+
 ### Prerequisites
 
 Before you begin, ensure you have met the following requirements:
@@ -16,7 +18,7 @@ Please follow these steps to get up and running
 **Fork this repository**
 
 ```
-git clone https:/...
+git clone ...
 ```
 
 **Installing**
