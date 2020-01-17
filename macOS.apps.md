@@ -6,6 +6,7 @@ Dev:
 * [Code](https://code.visualstudio.com)
 * [Webstorm](https://www.jetbrains.com/webstorm/)
 * [iTerm2](https://iterm2.com)
+* [Oh My ZSH!](https://ohmyz.sh)
 
 Internet:
 
