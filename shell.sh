@@ -16,3 +16,6 @@ find . -iname "*.js" -exec bash -c 'mv "$0" "${0%\.js}Reducer.js"' {} \;
 
 Selectors
 find . -iname "*.js" -exec bash -c 'mv "$0" "${0%\.js}Selectors.js"' {} \;
+
+Touch file in each folder
+find . -type d -exec touch \{\}/index.js \;
