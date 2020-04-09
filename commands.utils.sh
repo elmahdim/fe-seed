@@ -1,5 +1,4 @@
-# Script to create folder with same name as file and move file into folder
-
+# Create folder with same name as file and move file into folder
 for file in *; do
   if [[ -f "$file" ]]; then
     mkdir "${file%.*}"
