@@ -7,15 +7,17 @@ for file in *; do
   fi
 done
 
+# Rename files extensions
+find . -iname "*.js" -exec bash -c 'mv "$0" "${0%\.js}XXX.js"' {} \;
 
-Actions
+# Actions
 find . -iname "*.js" -exec bash -c 'mv "$0" "${0%\.js}Actions.js"' {} \;
 
-Reducer
+# Reducer
 find . -iname "*.js" -exec bash -c 'mv "$0" "${0%\.js}Reducer.js"' {} \;
 
-Selectors
+# Selectors
 find . -iname "*.js" -exec bash -c 'mv "$0" "${0%\.js}Selectors.js"' {} \;
 
-Touch file in each folder
+# Touch file in each folder
 find . -type d -exec touch \{\}/index.js \;
